@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+
+    <link href='../css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='../css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+    <link href='../css/scheduler.min.css' rel='stylesheet' />
+    <script src='../scripts/moment.min.js'></script>
+    <script src='../scripts/jquery.min.js'></script>
+    <script src='../scripts/fullcalendar.min.js'></script>
+    <script src='../scripts/scheduler.js'></script>
+    <script src="../scripts/SDK.REST.js"></script>
+    <script src='../scripts/q.js'></script>
+    <script src='../scripts/calendar.js'></script>
+    <script>
+
+        $(function () { // document ready
+            calendar.Start();
+        });
+
+
+    </script>
+    <style>
+        body {
+            font-family: Segoe\000020UI,Tahoma,Arial;
+            font-size: 14px;
+        }
+
+        #calendar {
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+            height: 95vh;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div id='calendar'></div>
+
+</body>
+</html>
